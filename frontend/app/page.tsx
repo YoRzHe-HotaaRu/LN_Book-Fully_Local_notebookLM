@@ -171,19 +171,19 @@ export default function Home() {
                     <input
                       type="range"
                       min={2048}
-                      max={32768}
-                      step={1024}
+                      max={256000}
+                      step={2048}
                       value={settingsNumCtx}
                       onChange={(e) => setSettingsNumCtx(parseInt(e.target.value))}
                       className="flex-1 accent-accent h-1.5 bg-gray-200 rounded-lg appearance-none cursor-pointer"
                     />
-                    <span className="text-[9px] text-gray-400 font-mono">32K</span>
+                    <span className="text-[9px] text-gray-400 font-mono">256K</span>
                   </div>
 
                   <div className="mt-2.5 flex items-center justify-between text-[9px] text-gray-400">
                     <span>Low Memory (2,048)</span>
                     <span>Standard (8,192)</span>
-                    <span>High Context (32,768)</span>
+                    <span>Extreme Context (256,000)</span>
                   </div>
                 </div>
               </div>
