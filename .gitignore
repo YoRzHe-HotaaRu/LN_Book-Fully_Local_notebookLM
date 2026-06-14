@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Node.js
+node_modules/
+.next/
+out/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project-specific
+data/
+*.db
+*.sqlite
+.arbor/
+sessions/
+
+# Model files (too large for git)
+*.gguf
+*.bin
+*.safetensors
+
+# Generated outputs
+output/
+generations/
+audio/
+slides/
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
